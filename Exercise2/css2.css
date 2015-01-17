@@ -1,0 +1,52 @@
+/* Applying font color/box-sizing/padding to all divs */
+div {
+	box-sizing: border-box;
+	padding: 20px;
+	color: #FFF;
+}
+
+/* Header */
+.header {
+    background: #f2a062;
+	width: 100%;
+	overflow: auto;
+}
+
+/* Sidebar */
+.sidebar {
+    background: #f6bd62;
+    float: left;
+	width: 20%;
+	height:160px;
+	
+}
+
+/* Content */
+.content {
+    background: #507088;
+	float:left;
+	width:80%;
+	height:160px;
+}
+
+/* Footer */
+.footer {
+    background: #b7ce3f;
+    float: left;
+	width:100%;
+	height:60px;
+}
+
+/* logo */
+.logo {
+	float: left;
+    background: #eb6481;
+	width:20%;
+}
+
+/* Navigation */
+.navigation {
+	float: right;
+    background: #d76a50;
+	width:80%;
+}
